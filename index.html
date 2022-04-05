@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='initial-scale=1'>
+  <title>Epicodus</title>
+  <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script type='text/javascript' src=''></script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+  <script type='text/javascript'
+    src='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js'></script>
+</head>
+
+<body style="color: rgb(0, 0, 0);" oncontextmenu='return false' class='snippet-body'>
+  <nav style="z-index:10;font-size: 1.2rem;background-color:#151515;font-weight: bold; position: fixed; width: 100% ;"
+    class="navbar navbar-expand-lg  navbar-dark ">
+    <a style="margin-left: 25px;" class="navbar-brand" href="#"><img src="src/1.jpeg" width="112" height="28"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://sathwik-14.github.io/epicodus/" style="margin-left:2%;color:#f5f5f5 ;">Home
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" style="margin-left:2%;color:#f5f5f5 ;">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer" style="margin-left:2%;color: #f5f5f5 ;">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#workshops" style="margin-left:2%;color: #f5f5f5 ;">Workshops</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide  animate__animated animate__fadeInUp"
+    data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src/bg.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="home text-center" style="color: white;">
+
+        <h1 class="homeh" style="color: white;">Join Epicodus</h1>
+        <p class="homep" style="font-size:1.5rem;">Educational Inspiration</p>
+        <button style="margin-top:3%;" class="animate__animated animate__fadeInRight btn btn-md btn-outline-light"><a href="#workshops">Book
+          Now</a></button>
+      </div>
+      <div class="carousel-item">
+        <img src="src/bg2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="home text-center" style="color: white;">
+
+        <h1 class="homeh" style="color: white;">Join Epicodus</h1>
+        <p class="homep" style="font-size:1.5rem;">Educational Inspiration</p>
+        <button style="margin-top:3%;" class="animate__animated animate__fadeInRight btn btn-md btn-outline-light"><a href="#workshops">Book
+          Now</a></button>
+      </div>
+      <div class="carousel-item ">
+        <img src="src/bg3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="home text-center" style="color: white;">
+
+        <h1 class="homeh" style="color: white;">Join Epicodus</h1>
+        <p class="homep" style="font-size:1.5rem;">Educational Inspiration</p>
+        <button style="margin-top:3%;" class="animate__animated animate__fadeInRight btn btn-md btn-outline-light"><a href="#workshops">Book
+          Now</a></button>
+      </div>
+      <div class="carousel-item ">
+        <img src="src/bg4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="home text-center" style="color: white;">
+
+        <h1 class="homeh" style="color: white;">Join Epicodus</h1>
+        <p class="homep" style="font-size:1.5rem;">Educational Inspiration</p>
+        <button style="margin-top:3%;" class="animate__animated animate__fadeInRight btn btn-md btn-outline-light"><a href="#workshops">Book
+          Now</a></button>
+      </div>
+
+    </div>
+  </div>
+  <!--  <div class="main-container reveal">
+        <div class="heading">
+          <h1 class="heading__title">Why Learn With Us?</h1>
+        </div>
+        <div class="cards">
+          <div class="card card-1">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">1. Text</h2>
+          </div>
+          <div class="card card-2">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">2. Text2</h2>
+          </div>
+          <div class="card card-3">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">3. Text 3</h2>
+          </div>
+          <div class="card card-4">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">4. Text 4</h2>
+          </div>
+          <div class="card card-5">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">5. Text 5</h2>
+          </div>
+          <div class="card card-1">
+            <div class="card__icon"><i class="fas fa-bolt"></i></div>
+            <h2 class="card__title">6. Text 6</h2>
+          </div>
+        </div>
+      </div>-->
+
+  <div class="container-fluid">
+    <div class="header ">
+      <h1>Why Learn With Us?</h1>
+    </div>
+    <div class="row1-container">
+      <div class="box box-down cyan">
+        <h2>Designed for Students</h2>
+
+        <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+      </div>
+
+      <div class="box red">
+        <h2>practical Hands-on Workshops
+        </h2>
+
+        <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+      </div>
+
+      <div class="box box-down blue">
+        <h2>One-on-One with Mentors</h2>
+
+        <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+      </div>
+    </div>
+    <div class="row2-container">
+      <div class="box orange">
+        <h2>Personalized Feedback on Assignment</h2>
+
+        <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <section class="pt-5 pb-5 " id="workshops">
+    <div class="container ">
+      <div class="row">
+        <div class="col-6">
+          <h2 class="mb-3" style="color:black;font-weight: bolder;">Events and Bootcamps </h2>
+        </div>
+        <div class="col-6 text-right ">
+          <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left"></i>
+          </a>
+          <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="col-12 eab">
+          <div id="carouselExampleIndicators2" style="color:rgb(0, 0, 0);" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+
+                  <div class="col-md-6  mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="src/c1.png">
+                      <div class="card-body">
+                        <h4 class="card-title">Let us 'C'</h4>
+                        <p class="card-text">Learn C Programming</p>
+
+                        <div class="btn btn-md btn-primary" data-toggle="modal" data-target="#exampleModalLong">More
+                          Info</div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6  mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="src/wd.jpg">
+                      <div class="card-body">
+                        <h4 class="card-title">Web Dev</h4>
+                        <p class="card-text">Full Stack Development</p>
+                        <div class="btn btn-md btn-primary" data-toggle="modal" data-target="#wd">More Info</div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+
+                  <div class="col-md-6  mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="src/java.jpeg">
+                      <div class="card-body">
+                        <h4 class="card-title">Programming In Java</h4>
+                        <p class="card-text">Problem solving using java</p>
+                        <div class="btn btn-md btn-primary" data-toggle="modal" data-target="#jp">More Info</div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6  mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="src/ml.jpg">
+                      <div class="card-body">
+                        <h4 class="card-title">Python and Machine Learning</h4>
+                        <p class="card-text">Machine Learning</p>
+                        <div class="btn btn-md btn-primary" data-toggle="modal" data-target="#ml">More Info</div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+
+                  <div class="col-md-6  mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="src/py.jpg">
+                      <div class="card-body">
+                        <h4 class="card-title">Python Programming</h4>
+                        <p class="card-text">Problem solving using python</p>
+                        <div class="btn btn-md btn-primary" data-toggle="modal" data-target="#pp">More Info</div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6  mb-3">
+                    <div class="card">
+                      <img class="img-fluid" alt="100%x280" src="src/njs.png">
+                      <div class="card-body">
+                        <h4 class="card-title">Javascript and Node JS</h4>
+                        <p class="card-text">Backend with Node JS</p>
+                        <div class="btn btn-md btn-primary" data-toggle="modal" data-target="#njs">More Info</div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="btn btn-lg btn-danger"><a href="https://sathwik-14.github.io/epicodus#workshops">close</a></div>
+          <img src="src/cmodal.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="wd" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="btn btn-lg btn-danger"><a href="https://sathwik-14.github.io/epicodus#workshops">close</a></div>
+          <img src="src/wdmodal.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="pp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="btn btn-lg btn-danger"><a href="https://sathwik-14.github.io/epicodus#workshops">close</a></div>
+          <img src="src/ppmodal.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="jp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="btn btn-lg btn-danger"><a href="https://sathwik-14.github.io/epicodus#workshops">close</a></div>
+          <img src="src/jpmodal.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="ml" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="btn btn-lg btn-danger"><a href="https://sathwik-14.github.io/epicodus#workshops">close</a></div>
+          <img src="src/mlmodal.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="njs" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="btn btn-lg btn-danger"><a href="https://sathwik-14.github.io/epicodus#workshops">close</a></div>
+          <img src="src/njsmodal.png">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <section data-bs-version="5.1" class="content1 cid-s48udlf8KU" id="content1-8">
+
+    <div class="container" id="about">
+      <div class="row justify-content-center">
+        <div class="title col-12 col-md-9">
+          <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>About</strong></h3>
+          <p class=" mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7" style="font-size:1.1rem;">We at
+            Epicodus (A research and education-based startup ), are a team with an aim to provide an interactive
+            learning platform for students to learn,research and develop projects with our support.
+            We strive to cultivate a change in the current learning strategy of students and incorporate a reasonable
+            learning methodology, to make them future-prepared with good knowledge of technologies and profound
+            practical experience in those fields with developing projects.<br>
+            We believe that you will appreciate this learning excursion and shape your future with us at Epicodus.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section data-bs-version="5.1" class="image3 cid-s48upRUlSD" id="image3-9">
+
+
+
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-9">
+          <div class="image-wrapper">
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-6">
+        <h2 class="mb-3" style="color:black;font-weight: bolder;">Our Team</h2>
+      </div>
+      <div class="col-6 text-right ">
+        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+          <i class="fa fa-arrow-left"></i>
+        </a>
+        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators1" role="button" data-slide="next">
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+      <div class="col-12 ot">
+        <div id="carouselExampleIndicators1" style="color:rgb(0, 0, 0);" class="carousel slide" data-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+
+
+
+                <div class="col-md-6">
+                  <div class="card p-0">
+                    <div class="card-image"> <img
+                        src="src/vik.jpeg"
+                        alt=""> </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">Vikram Damle</h4>
+                      <h5>Instructor and Head of Epicodus</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="card p-0">
+                    <div class="card-image"> <img
+                        src="src/sat.png"
+                        alt=""> </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">Sathwik Wagle</h4>
+                      <h5>Web Desinger and Dean of Epicodus</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="card p-0">
+                    <div class="card-image"> <img
+                        src="src/var.jpeg"
+                        alt=""> </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">K G Varun Rai</h4>
+                      <h5>Web Desinger and Dean at Epicodus</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="card p-0">
+                    <div class="card-image"> <img
+                        src="src/vis.jpeg"
+                        alt=""> </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <h4 class="pt-2">Vishwajith A J</h4>
+                      <h5>Web Desinger and Dean at Epicodus</h5>
+                      <ul class="social-icons d-flex justify-content-center">
+                        <li style="--i:1"> <a href="#"> <span class="fab fa-facebook"></span> </a> </li>
+                        <li style="--i:2"> <a href="#"> <span class="fab fa-twitter"></span> </a> </li>
+                        <li style="--i:3"> <a href="#"> <span class="fab fa-instagram"></span> </a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+           
+          
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <footer class="footer" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>Epicodus</h4>
+              <ul>
+                <li><a href="#carouselExampleSlidesOnly">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#workshops">Workshops</a></li>
+
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="mailto:epicodus3@gmail.com">Contact Admin</a></li>
+                <li><a href="mailto:kywagle@gmail.com">Contact Developer</a></li>
+
+
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Address</h4>
+              <ul>
+                <li><a href="https://vcetputtur.ac.in"> Puttur, Karnataka</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Reach us</h4>
+              <div class="social-links">
+                <a href="mailto:epicodus3@gmail.com"><i class="fab fa-google"></i></a>
+                <a href="https://www.instagram.com/epicodus3/"><i class="fab fa-instagram"></i></a>
+                <a href="http://wa.me/9148422354?text=Hello"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center" style="color: wheat;">copyright @ Epicodus</div>
+      </footer>
+
+
+</html>
