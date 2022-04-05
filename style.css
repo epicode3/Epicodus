@@ -647,8 +647,9 @@ li {
 }
 .home{
   position: absolute;
- margin-left: 20%;
+ margin-left: 15%;
 }
+
 .homeh{
   font-weight:bold;
   color: white;
@@ -659,6 +660,9 @@ li {
 }
 .eab{
   padding-left: 15%;
+}
+#workshop{
+  margin-top: -5%;
 }
 .image-wrapper{
   background-image: url('src/2.jpg');
