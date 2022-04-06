@@ -50,7 +50,7 @@ h4,h5{
     bottom: -180px;
     color: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     min-height: 100px;
     width: 100%;
     box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
