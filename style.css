@@ -642,6 +642,11 @@ li {
   width: 470px;
 }
 @media (max-width: 428px) {
+
+  #alert{
+    position: relative;
+    top:50px;
+  }
 .header{
   margin-top: -29%;
 }
